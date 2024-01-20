@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  border-radius: 8px;
+}
+
+:root {
+  --color-primary: #f40009;
+  --color-secondary: #111114;
+  --mass-primary: black;
+  --color-secondary-light: #2a2a2c;
+}
+/* .call-btn {
+  position: fixed;
+  bottom: 2.3rem;
+  left: 1.2rem;
+  z-index: 1;
+} */
+
+.login--container{
+  
+}
+.login--btn{
+
+}
+.call-btn {
+  position: fixed;
+  bottom: 58%;
+  right: -2.5rem;
+  z-index: 1;
+  background-color: #002147;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 0.2rem 1.2rem;
+  border-radius: 6px 6px 0 0;
+  transform: rotateZ(270deg);
+}
+
+.index_call-btn {
+  position: fixed;
+  bottom: 58%;
+  right: -2.5rem;
+  z-index: 1;
+  background-color: #002147;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 0.2rem 1.2rem;
+  border-radius: 6px 6px 0 0;
+  transform: rotateZ(270deg);
+}
+
+.index_login-btn {
+  position: fixed;
+  bottom: 42%;
+  right: -1.6rem;
+  z-index: 1;
+  background-color: #002147;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 0.2rem 1.2rem;
+  border-radius: 6px 6px 0 0;
+  transform: rotateZ(270deg);
+}
+
+.login-btn {
+  position: fixed;
+  bottom: 42%;
+  right: -1.6rem;
+  z-index: 1;
+  background-color: #002147;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 0.2rem 1.2rem;
+  border-radius: 6px 6px 0 0;
+  transform: rotateZ(270deg);
+}
+
+.scrolWrap {
+  background-color: #002147;
+  height: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 100%;
+}
+
+#scroll-progress {
+  height: 5px;
+  background-color: #f54a8d;
+  /* background: linear-gradient(to right, #133382,#f54a8d); */
+}
+
+.bannner,
+.Fundamental-bannner,
+.Bussiness-bannner,
+.WebDesigning-bannner,
+.Placement-bannner,
+.Infrastructure-bannner,
+.Testing-bannner,
+.DataScience-bannner,
+.CyberSecurity-bannner,
+.Trending-bannner {
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannner {
+  background-image: linear-gradient(45deg, #ffffff81, #48474761),
+    url("../img/bannerLogo/bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.Fundamental-bannner {
+  background-image: linear-gradient(45deg, #ffffff81, #48474761),
+    url("../img/slider/bg_3.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.Bussiness-bannner {
+  background-image: linear-gradient(90deg, #ffffffc2, #ffffff00),
+    url("../img/modules/bussiness.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.WebDesigning-bannner {
+  background-image: linear-gradient(90deg, #ffffff80, #48474700),
+    url("../img/slider/slider_bg_1.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.Placement-bannner {
+  background-image: linear-gradient(45deg, #ffffff81, #48474761),
+    url("../img/modules/placement.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.Infrastructure-bannner {
+  background-image: linear-gradient(45deg, #ffffff81, #48474761),
+    url("../img/modules/couldcomputing.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.Testing-bannner {
+  background-image: linear-gradient(45deg, #73707081, #48474761),
+    url("../img/modules/testing.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.DataScience-bannner {
+  background-image: linear-gradient(45deg, #73707081, #48474761),
+    url("../img/slider/slider_bg_5.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.CyberSecurity-bannner {
+  background-image: linear-gradient(45deg, #73707081, #48474761),
+    url("../img/slider/slider_bg_5.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.Trending-bannner {
+  background-image: linear-gradient(45deg, #73707081, #48474761),
+    url("../img/slider/slider_bg_12.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.bannner-dot-net{
+  background-image: linear-gradient(45deg, #f0f0f0, #48474761),
+    url("../img/bannerLogo/PMOD4.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.banner-python{
+  background-image: linear-gradient(45deg, #d8d8d8da, #48474700),
+    url("../img/bannerLogo/PMOD2.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.banner-mern{
+  background-image: linear-gradient(90deg, #ffffff9b, #48474761),
+    url("../img/bannerLogo/PMOD1.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.banner-mean{
+  background-image: linear-gradient(90deg, #ffffffa2, #48474761),
+    url("../img/bannerLogo/PMOD3.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.main-wrapper {
+  display: none;
+  position: fixed;
+  height: auto;
+  border-radius: 12px;
+  width: 100%;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.main-wrapper-1 {
+  display: none;
+  position: fixed;
+  height: auto;
+  border-radius: 12px;
+  width: 100%;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.main-wrapper-2 {
+  display: none;
+  position: fixed;
+  height: auto;
+  border-radius: 12px;
+  width: 100%;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.account-block {
+  padding: 0;
+  background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.account-block .overlay {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.account-block .account-testimonial {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}
+
+.text-theme {
+  color: #020f66c6 !important;
+}
+
+.btn-theme {
+  background-color: #5369f8;
+  border-color: #5369f8;
+  color: #fff;
+}
+
+.details-card {
+  display: none;
+  position: fixed;
+  height: 90vh;
+  border-radius: 8px;
+  z-index: 3;
+  top: 50%;
+  /* border: 24px solid white; */
+  left: 50%;
+  opacity: 1;
+  overflow-y: scroll;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  /* background: linear-gradient(to right,#f54a8d, #133382); */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* transition: 0.5s; */
+}
+.details-card::-webkit-scrollbar {
+  display: none;
+  padding-top: 2rem;
+}
+
+.course-info-card ul {
+  background-color: #fff;
+  padding: 1rem;
+  height: auto;
+  margin-bottom: 1rem;
+  /* overflow-x: scroll; */
+  border-radius: 0.5rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.course-info-card ul li {
+  display: show;
+  /* padding-left: 12px; */
+  /* font-weight: 500; */
+  opacity: 1;
+  margin: 6px;
+  padding: 4px 4px 4px 12px;
+  color: #002147;
+  background-color: rgb(247, 247, 247);
+  transition: 1s;
+}
+
+.course-info-card ul li:nth-child(odd) {
+  border-left: 8px solid #f54a8d;
+  /* background-color:  #fff5f9; */
+}
+
+.course-info-card ul li:nth-child(even) {
+  border-left: 8px solid #020f66c6;
+  /* background-color: #f3f4ff; */
+}
+.close-tb {
+  z-index: 3;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.close-tb:hover {
+  background-color: transparent;
+  background-color: #eeeeee;
+}
+.detailcard-header {
+  position: sticky;
+  top: 0;
+  background-color: #002147;
+}

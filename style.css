@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+
+:root {
+  --color-primary: #F40009;
+  --color-secondary: #111114;
+  --mass-primary: black;
+  --color-secondary-light: #2a2a2c;
+}
+.call-btn{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 1;
+}
+.scrolWrap {
+  background-color:  #002147;
+  height: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 100%;
+}
+
+#scroll-progress {
+  height: 5px;
+  background-color:#f54a8d ;
+  /* background: linear-gradient(to right, #133382,#f54a8d); */
+}
+
+.bannner{
+    background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); 
+    background-color: #fff0f0;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.main-wrapper{
+    display: none;
+    position: fixed;
+    height: auto; 
+    border-radius: 12px;
+    width: 100%; 
+    z-index: 2;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) ;
+}
+
+.account-block {
+    padding: 0;
+    background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.account-block .account-testimonial {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+}
+
+.text-theme {
+    color: #020f66c6 !important;
+}
+
+.btn-theme {
+    background-color: #5369f8;
+    border-color: #5369f8;
+    color: #fff;
+}
+
+.details-card{
+    display: none;
+    position: fixed;
+    height: 90vh; 
+    border-radius: 8px; 
+    z-index: 1;
+    top: 50%;
+    border: 24px solid white;
+    left: 50%;
+    opacity: 1;
+    overflow-y: scroll;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    /* background: linear-gradient(to right,#f54a8d, #133382); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* transition: 0.5s; */
+    
+}
+.details-card::-webkit-scrollbar {
+    display: none;
+}
+
+
+.course-info-card ul{
+    background-color: #fff;
+    padding: 1rem;
+    height: 85%;
+    overflow-x: scroll;
+    border-radius: 0.5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.course-info-card ul li{
+    /* padding-left: 12px; */
+    /* font-weight: 500; */
+    margin: 6px;
+    padding: 4px 4px 4px 12px ;
+    color: #2a2a2c;
+    background-color: rgb(247, 247, 247);
+}
+
+.course-info-card ul li:nth-child(odd){
+    border-left: 8px solid #f54a8d;
+    /* background-color:  #fff5f9; */
+}
+
+.course-info-card ul li:nth-child(even){
+    border-left: 8px solid #020f66c6;
+    /* background-color: #f3f4ff; */
+}
+.close-tb{
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eeeeee;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
